@@ -1,0 +1,14 @@
+print("Hello")
+
+
+import os
+
+directory = "/"
+
+files = os.listdir(directory)
+
+files.pop(0)
+
+files.pop(len(files)-1)
+
+print(files)
