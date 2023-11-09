@@ -1,14 +1,11 @@
-print("Hello")
+импортировать ОС
 
+каталог = "/"
 
-import os
+файлы = os.listdir(каталог)
 
-directory = "/"
+файлы.pop(0)
 
-files = os.listdir(directory)
+files.pop(len(файлы)-1)
 
-files.pop(0)
-
-files.pop(len(files)-1)
-
-print(files)
+распечатать(файлы)
